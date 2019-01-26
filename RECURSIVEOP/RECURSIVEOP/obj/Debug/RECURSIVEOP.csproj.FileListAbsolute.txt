@@ -1,0 +1,12 @@
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.exe.config
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.exe
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.pdb
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.csprojResolveAssemblyReference.cache
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.exe
+c:\users\17b-033-se\documents\visual studio 2013\Projects\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.exe.config
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\bin\Debug\RECURSIVEOP.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB6\RECURSIVEOP\RECURSIVEOP\obj\Debug\RECURSIVEOP.csprojResolveAssemblyReference.cache

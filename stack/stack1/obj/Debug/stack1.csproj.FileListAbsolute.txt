@@ -1,0 +1,12 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\bin\Debug\stack1.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\bin\Debug\stack1.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\bin\Debug\stack1.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\obj\Debug\stack1.csprojResolveAssemblyReference.cache
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\obj\Debug\stack1.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\stack1\stack1\obj\Debug\stack1.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\bin\Debug\stack1.exe.config
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\obj\Debug\stack1.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\obj\Debug\stack1.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\bin\Debug\stack1.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\bin\Debug\stack1.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\stack1\stack1\obj\Debug\stack1.csprojResolveAssemblyReference.cache

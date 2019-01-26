@@ -1,0 +1,12 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\bin\Debug\QUEUE.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\bin\Debug\QUEUE.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\bin\Debug\QUEUE.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\obj\Debug\QUEUE.csprojResolveAssemblyReference.cache
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\obj\Debug\QUEUE.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\QUEUE\QUEUE\obj\Debug\QUEUE.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\bin\Debug\QUEUE.exe.config
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\obj\Debug\QUEUE.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\obj\Debug\QUEUE.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\bin\Debug\QUEUE.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\bin\Debug\QUEUE.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\QUEUE\QUEUE\obj\Debug\QUEUE.csprojResolveAssemblyReference.cache
