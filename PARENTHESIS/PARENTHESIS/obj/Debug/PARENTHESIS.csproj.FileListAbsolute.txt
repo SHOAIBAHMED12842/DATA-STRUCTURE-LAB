@@ -1,0 +1,6 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\bin\Debug\PARENTHESIS.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\bin\Debug\PARENTHESIS.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\bin\Debug\PARENTHESIS.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\obj\Debug\PARENTHESIS.csprojResolveAssemblyReference.cache
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\obj\Debug\PARENTHESIS.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\PARENTHESIS\PARENTHESIS\obj\Debug\PARENTHESIS.pdb

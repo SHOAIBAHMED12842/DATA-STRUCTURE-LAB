@@ -1,0 +1,6 @@
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\bin\Debug\DEQUE.exe.config
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\bin\Debug\DEQUE.exe
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\bin\Debug\DEQUE.pdb
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\obj\Debug\DEQUE.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\obj\Debug\DEQUE.exe
+c:\users\hp\documents\visual studio 2013\Projects\DEQUE\DEQUE\obj\Debug\DEQUE.pdb

@@ -1,0 +1,12 @@
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.exe.config
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.exe
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.pdb
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.csprojResolveAssemblyReference.cache
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.exe
+c:\users\ismail vohra\documents\visual studio 2017\Projects\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.exe.config
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.exe
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\bin\Debug\EvaluatingPostfixNotation.pdb
+F:\UIT\UIT THIRD SEMESTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB5\EvaluatingPostfixNotation\EvaluatingPostfixNotation\obj\Debug\EvaluatingPostfixNotation.csprojResolveAssemblyReference.cache
