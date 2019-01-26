@@ -1,0 +1,342 @@
+namespace Assignment3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int choice;
+            #region GraphInitialiation
+
+            Graph g = new Graph(9);
+            g.AddVertex("Ahmed");
+            g.AddVertex("Basit");
+            g.AddVertex("Waleed");
+            g.AddVertex("Samreen");
+            g.AddVertex("Aisha");
+            g.AddVertex("Waleed");
+            g.AddVertex("Nuzhat");
+            g.AddVertex("Mashood");
+            g.AddVertex("Wasif");
+
+            g.AddEdge("Ahmed", "Basit");
+            g.AddEdge("Basit", "Waleed");
+            g.AddEdge("Waleed", "Ahmed");
+            g.AddEdge("Waleed", "Samreen");
+            g.AddEdge("Samreen", "Aisha");
+            g.AddEdge("Aisha", "Waleed");
+            g.AddEdge("Aisha", "Nuzhat");
+            g.AddEdge("Mashood", "Aisha");
+            g.AddEdge("Mashood", "Wasif");
+            g.AddEdge("Wasif", "Nuzhat");
+            g.AddEdge("Wasif", "Aisha");
+
+            #endregion
+
+            Console.WriteLine("Friendship Graph");
+            Console.WriteLine("1. Friend or not?");
+            Console.WriteLine("2. Number of Friends");
+            Console.WriteLine("3. Find Distance");
+            Console.Write("Enter Your Choice:");
+            choice = Convert.ToInt32(Console.ReadLine());
+            string firstFriend, secondFriend;
+            switch (choice)
+            {
+                case 1:
+                    
+                    Console.Write("Give name of first friend:");
+                    firstFriend = Console.ReadLine();
+                    Console.Write("Give name of second friend:");
+                    secondFriend = Console.ReadLine();
+                    if (g.IsEdge(firstFriend, secondFriend))
+                        Console.WriteLine("Yes, they are friends");
+                    else
+                        Console.WriteLine("No, they are not friends");
+                    break;
+                case 2:
+                    Console.Write("Give name of person:");
+                    firstFriend = Console.ReadLine();
+                    int num = g.Degree(firstFriend);
+                    Console.WriteLine("Number of friends:{0}", num);
+                    break;
+                case 3:
+                    Console.Write("Give name of first friend:");
+                    firstFriend = Console.ReadLine();
+                    Console.Write("Give name of second friend:");
+                    secondFriend = Console.ReadLine();
+                    int d = g.BFSearch(firstFriend, secondFriend);
+                    if (d >= 0)
+                        Console.WriteLine("Minimum number of friends between {0} and {1}:{2}",
+                            firstFriend, secondFriend, d - 1);
+                    break;
+            }
+
+        }
+    }
+
+    class Graph
+    {
+        // to stote the graph
+        int[,] adjMatrix;
+        List<string> names;
+        int numberOfNodes;
+
+        public Graph(int numOfNodes)
+        {
+            this.numberOfNodes = numOfNodes;
+            adjMatrix = new int[numberOfNodes, numberOfNodes];
+            names = new List<string>();
+        }
+
+        /// <summary>
+        /// add a vertex in the graph using the name of vertex
+        /// </summary>
+        public void AddVertex(string name)
+        {
+            if (names.Count() < this.numberOfNodes)
+            {
+                names.Add(name);
+            }
+        }
+
+        /// <summary>
+        /// Add an edge using name of vertices
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="destination"></param>
+        public void AddEdge(string source, string destination)
+        {
+            int sindex = FindVertex(source);
+            int dindex = FindVertex(destination);
+
+            if (sindex != -1 && dindex != -1)
+                AddEdge(sindex, dindex);
+            else
+                throw new Exception("Vertex not found");
+        }
+
+        /// <summary>
+        /// Add an edge in the graph
+        /// </summary>
+        public void AddEdge(int source, int destination)
+        {
+            adjMatrix[source, destination] = 1;
+            adjMatrix[destination, source] = 1;
+        }
+
+        /// <summary>
+        /// Find index of given vertex
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        private int FindVertex(string name)
+        {
+            for (int i = 0; i < names.Count; i++)
+            {
+                if (names[i] == name)
+                    return i;
+            }
+
+            return -1;
+        }
+
+        public int Degree(string name)
+        {
+            int id = FindVertex(name);
+
+            if (id >= 0)
+                return Degree(id);
+
+            throw new Exception("Vertex not found");
+        }
+
+        /// <summary>
+        /// return degree of the node
+        /// </summary>
+        /// <param name="vertex"></param>
+        /// <returns></returns>
+        public int Degree(int vertex)
+        {
+            int deg = 0;
+
+            for (int i = 0; i < numberOfNodes; i++)
+                if (adjMatrix[vertex, i] == 1)
+                    deg++;
+
+            return deg;
+        }
+
+        /// <summary>
+        /// return whether there is an edge or not
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="destination"></param>
+        /// <returns></returns>
+        public bool IsEdge(string source, string destination)
+        {
+            int sid = FindVertex(source);
+            int did = FindVertex(destination);
+
+            if (sid >= 0 && did >= 0)
+                return IsEdge(sid, did);
+            else
+                throw new Exception("Vertex not found");
+        }
+
+        /// <summary>
+        /// return whether there is an edge or not
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="destination"></param>
+        /// <returns></returns>
+        public bool IsEdge(int source, int destination)
+        {
+            return adjMatrix[source, destination] == 1;
+        }
+
+        /// <summary>
+        /// return the name of neighbours for given vertex 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public List<string> GetNeighbours(string name)
+        {
+            List<string> neg = new List<string>();
+            int id = FindVertex(name);
+
+            if (id < 0)
+                throw new Exception("Vertex not found");
+
+            for (int i = 0; i < numberOfNodes; i++)
+            {
+                if (adjMatrix[id, i] == 1)
+                    neg.Add(names[i]);
+            }
+
+            return neg;
+        }
+
+        /// <summary>
+        /// return the neighbours of a node
+        /// </summary>
+        public int[] GetNeighbours(int vertex)
+        {
+            List<int> neg = new List<int>();
+
+            for (int i = 0; i < numberOfNodes; i++)
+            {
+                if (adjMatrix[vertex, i] == 1)
+                    neg.Add(i);
+            }
+
+            return neg.ToArray();
+        }
+
+        /// <summary>
+        /// Print the adjacency matrix
+        /// </summary>
+        public void PrintMatrix()
+        {
+            for (int i = 0; i < numberOfNodes; i++)
+            {
+                for (int j = 0; j < numberOfNodes; j++)
+                {
+                    Console.Write("{0} ", adjMatrix[i, j]);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public void DFS(int source)
+        {
+            Stack<int> stack = new Stack<int>();
+            List<int> visited = new List<int>();
+
+            stack.Push(source);
+            visited.Add(source);
+
+            while (stack.Count > 0)
+            {
+                int thisvertex = stack.Pop();
+                Console.WriteLine("Visited:{0}", thisvertex);
+
+                int[] neg = GetNeighbours(thisvertex);
+
+                foreach (int n in neg)
+                {
+                    if (!visited.Contains(n))
+                    {
+                        stack.Push(n);
+                        visited.Add(n);
+                    }
+                }
+            }
+
+        }
+
+        public void BFS(int source)
+        {
+            Queue<int> stack = new Queue<int>();
+            List<int> visited = new List<int>();
+
+            stack.Enqueue(source);
+            visited.Add(source);
+
+            while (stack.Count > 0)
+            {
+                int thisvertex = stack.Dequeue();
+                Console.WriteLine("Visited:{0}", thisvertex);
+
+                int[] neg = GetNeighbours(thisvertex);
+
+                foreach (int n in neg)
+                {
+                    if (!visited.Contains(n))
+                    {
+                        stack.Enqueue(n);
+                        visited.Add(n);
+                    }
+                }
+            }
+
+        }
+
+        public int BFSearch(string source, string destination)
+        {
+            Queue<int> stack = new Queue<int>();
+            List<int> visited = new List<int>();
+            int[] distance = new int[numberOfNodes];
+            int[] pi = new int[numberOfNodes]; // not using
+
+            int sid = FindVertex(source);
+
+            stack.Enqueue(sid);
+            visited.Add(sid);
+            distance[sid] = 0;
+
+            while (stack.Count > 0)
+            {
+                int thisvertex = stack.Dequeue();
+
+                // if this vertex is the destination then just return the distance
+                if (names[thisvertex] == destination)
+                    return distance[thisvertex];
+
+                int[] neg = GetNeighbours(thisvertex);
+
+                foreach (int n in neg)
+                {
+                    if (!visited.Contains(n))
+                    {
+                        stack.Enqueue(n);
+                        visited.Add(n);
+                        distance[n] = distance[thisvertex] + 1;
+                    }
+                }
+            }
+
+            // not found
+            return -1;
+        }
+
+    }
+}
