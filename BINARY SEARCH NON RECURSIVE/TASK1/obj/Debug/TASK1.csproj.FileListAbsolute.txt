@@ -1,0 +1,12 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\bin\Debug\TASK1.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\bin\Debug\TASK1.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\bin\Debug\TASK1.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\obj\Debug\TASK1.csprojResolveAssemblyReference.cache
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\obj\Debug\TASK1.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK1\TASK1\obj\Debug\TASK1.pdb
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\bin\Debug\TASK1.exe.config
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\obj\Debug\TASK1.exe
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\obj\Debug\TASK1.pdb
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\bin\Debug\TASK1.exe
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\bin\Debug\TASK1.pdb
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 1\TASK1\obj\Debug\TASK1.csprojResolveAssemblyReference.cache

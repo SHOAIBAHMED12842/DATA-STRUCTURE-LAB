@@ -1,0 +1,8 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK 2\TASK 2\bin\Debug\TASK 2.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK 2\TASK 2\bin\Debug\TASK 2.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK 2\TASK 2\bin\Debug\TASK 2.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK 2\TASK 2\obj\Debug\TASK 2.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\TASK 2\TASK 2\obj\Debug\TASK 2.pdb
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 2\TASK 2\bin\Debug\TASK 2.exe.config
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 2\TASK 2\obj\Debug\TASK 2.exe
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB2\TASK 2\TASK 2\obj\Debug\TASK 2.pdb

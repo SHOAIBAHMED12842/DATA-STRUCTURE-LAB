@@ -1,0 +1,9 @@
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\bin\Debug\SELECTIONSORT.exe.config
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\bin\Debug\SELECTIONSORT.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\bin\Debug\SELECTIONSORT.pdb
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\obj\Debug\SELECTIONSORT.csprojResolveAssemblyReference.cache
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\obj\Debug\SELECTIONSORT.exe
+c:\users\shuaib ahmed\documents\visual studio 2013\Projects\SELECTIONSORT\SELECTIONSORT\obj\Debug\SELECTIONSORT.pdb
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB3\SELECTIONSORT\SELECTIONSORT\bin\Debug\SELECTIONSORT.exe.config
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB3\SELECTIONSORT\SELECTIONSORT\obj\Debug\SELECTIONSORT.exe
+F:\UIT\UIT THIRD SEMISTER\sanamaqsood\Data Structures CS211\ASSIGNMENT\LAB3\SELECTIONSORT\SELECTIONSORT\obj\Debug\SELECTIONSORT.pdb
