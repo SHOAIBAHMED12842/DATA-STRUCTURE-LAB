@@ -1,0 +1,6 @@
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\bin\Debug\EXTRA_LAB.exe.config
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\bin\Debug\EXTRA_LAB.exe
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\bin\Debug\EXTRA_LAB.pdb
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\obj\Debug\EXTRA_LAB.csprojResolveAssemblyReference.cache
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\obj\Debug\EXTRA_LAB.exe
+c:\users\17b-033-se\documents\visual studio 2013\Projects\EXTRA_LAB\EXTRA_LAB\obj\Debug\EXTRA_LAB.pdb
